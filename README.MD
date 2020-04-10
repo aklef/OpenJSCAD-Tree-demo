@@ -12,7 +12,7 @@ I ported it, then generated the following portion of a tree before node.js ate u
 
 !["Recursive tree attempt"](images/RecursiveTree.jscad.JPG)
 
-"Recursive tree with a Depth of 5" ([RecursiveTree.jscad](RecursiveTree.jscad "RecursiveTree.jscad"), 49 lines of JavaScript.) ([source](RecursiveTree.stl "source"))
+"Recursive tree with a Depth of 5" ([RecursiveTree.jscad](RecursiveTree.jscad "RecursiveTree.jscad"), 49 lines of JavaScript.) ([source](stl/RecursiveTree.stl "poor broken bastard"))
 
 Then I made an iterative version that uses MUCH less RAM... 
 
@@ -20,13 +20,13 @@ Here's a web-generated tree with a Depth of 4 that uses only a few hundred megs 
 
 !["Iterative tree with a Depth of 4"](images/tree-web.JPG)
 
-"Iterative tree with a Depth of 4" ([tree.jscad](tree.jscad "tree.jscad"), 44 lines of JavaScript.) ([source](tree-web.stl "source"))
+"Iterative tree with a Depth of 4" ([tree.jscad](tree.jscad "tree.jscad"), 44 lines of JavaScript.) ([source](stl/tree-web.stl "grab the STL"))
 
 And another similar tree, loaded into Cura.
 
 !["Iterative tree with a Depth of 4"](images/tree.jscad.JPG)
 
-"Iterative tree with a Depth of 4" ([tree.jscad](tree.jscad "tree.jscad"), 44 lines of JavaScript.) ([source](tree.jscad.stl "source"))
+"Iterative tree with a Depth of 4" ([tree.jscad](tree.jscad "tree.jscad"), 44 lines of JavaScript.) ([source](stl/tree.jscad.stl "grab the STL"))
 
 I attempted to generate the tree with a Depth of 5, as in the original. However, it failed twice, each time after about five hours computing and using all the (gig and a half) of memory I'd given node. 
 ([treeDepth5.jscad](treeDepth5.jscad "treeDepth5.jscad"), also 44 lines of JavaScript but won't terminate properly, for me.)
