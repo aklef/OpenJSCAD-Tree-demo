@@ -6,7 +6,7 @@ I saw this beautiful tree [somewhere on the internet](http://smcameron.github.io
 
 "Fractal tree" ([tree.c](https://github.com/smcameron/opencscad/blob/master/tree.c "tree.c"), 47 lines of C code.) ([source](https://github.com/smcameron/opencscad "source"))
 
-... to make the same tree in OpenJSCAD! (spoiler: it sorta fails)
+... to make the same tree in [OpenJSCAD](https://openjscad.org/dokuwiki/doku.php "accesible CAD programming")! (spoiler: it partially works)
 
 I ported it, then generated the following portion of a tree before node.js ate up all my RAM and crashed...
 
