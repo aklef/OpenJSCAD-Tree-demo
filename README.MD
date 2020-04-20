@@ -1,6 +1,6 @@
 # OpenJSCAD Tree Demo #
 
-I saw this beautiful tree somewhere on the internet and got inspired
+I saw this beautiful tree somewhere on the internet and got immediately inspired...
 
 !["Fractal tree"](images/fractaltree.png)
 
@@ -29,5 +29,5 @@ And another similar tree, loaded into Cura.
 "Iterative tree with a Depth of 4" ([tree.jscad](tree.jscad "tree.jscad"), 44 lines of JavaScript.) ([source](stl/tree.jscad.stl "grab the STL"))
 
 I attempted to generate the tree with a Depth of 5, as in the original. However, it failed twice, each time after about five hours computing and using all the (gig and a half) of memory I'd given node. 
-([treeDepth5.jscad](treeDepth5.jscad "treeDepth5.jscad"), also 44 lines of JavaScript but won't terminate properly, for me.)
+([treeDepth5.jscad](treeDepth5.jscad "treeDepth5.jscad"), also 44 lines of JavaScript but won't terminate properly, for me. YMMV)
 
