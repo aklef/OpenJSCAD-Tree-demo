@@ -1,10 +1,10 @@
 # OpenJSCAD Tree Demo #
 
-I saw this beautiful tree somewhere on the internet and got immediately inspired...
+I saw this beautiful tree [somewhere on the internet](http://smcameron.github.io/opencscad/ "I love programming my CAD now...") and got immediately inspired...
 
 !["Fractal tree"](images/fractaltree.png)
 
-"Fractal tree" ([tree.c](https://github.com/smcameron/opencscad/blob/master/tree.c "tree.c"), 47 lines of C code.) ([source](http://smcameron.github.io/opencscad/ "source"))
+"Fractal tree" ([tree.c](https://github.com/smcameron/opencscad/blob/master/tree.c "tree.c"), 47 lines of C code.) ([source](https://github.com/smcameron/opencscad "source"))
 
 ... to make the same tree in OpenJSCAD! (spoiler: it sorta fails)
 
@@ -14,7 +14,7 @@ I ported it, then generated the following portion of a tree before node.js ate u
 
 "Recursive tree with a Depth of 5" ([RecursiveTree.jscad](RecursiveTree.jscad "RecursiveTree.jscad"), 49 lines of JavaScript.) ([source](stl/RecursiveTree.stl "poor broken bastard"))
 
-Then I made an iterative version that uses MUCH less RAM... 
+Then I made an iterative version using array-based recursion that uses MUCH less RAM ... 
 
 Here's a web-generated tree with a Depth of 4 that uses only a few hundred megs of memory:
 
